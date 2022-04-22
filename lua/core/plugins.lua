@@ -15,6 +15,9 @@ return require('packer').startup(function()
     }
     use 'moll/vim-bbye' -- for more sensible delete buffer cmd
 
+    -- hlslens
+    use {'kevinhwang91/nvim-hlslens'}
+
     -- themes (disabled other themes to optimize startup time)
     use 'sainnhe/sonokai'
 --    use 'joshdick/onedark.vim'
