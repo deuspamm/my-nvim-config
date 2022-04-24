@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\filetype.nvim",
     url = "https://github.com/nathom/filetype.nvim"
   },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
