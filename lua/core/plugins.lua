@@ -31,6 +31,9 @@ return require('packer').startup(function()
     -- neoscroll
     use 'karb94/neoscroll.nvim'
 
+    -- copilot
+    -- use 'github/copilot.vim'
+
     -- themes (disabled other themes to optimize startup time)
     use 'sainnhe/sonokai'
 --    use 'joshdick/onedark.vim'

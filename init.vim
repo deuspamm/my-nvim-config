@@ -1,6 +1,5 @@
 lua require('core.init')
 
-set guifont=FiraCode\ NF\ Font:h12
 set clipboard^=unnamed,unnamedplus
 
 " Ignore case in general, but become case-sensitive when uppercase is present
@@ -23,3 +22,5 @@ set scrolloff=3
 set mouse=nic  " Enable mouse in several mode
 set mousemodel=popup  " Set the behaviour of mouse
 
+let g:copilot_no_tab_map = v:true
+let g:copilot_assume_mapped = v:true

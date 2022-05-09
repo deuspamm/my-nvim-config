@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["neoscroll.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neoscroll.nvim",
+    url = "https://github.com/karb94/neoscroll.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\denng\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",

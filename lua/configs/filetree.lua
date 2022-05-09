@@ -10,9 +10,9 @@ function M.config()
       ignore_buffer_on_setup = false,
       open_on_setup = false,
       open_on_setup_file = false,
-      open_on_tab = false,
+      open_on_tab = true,
       sort_by = "name",
-      update_cwd = false,
+      update_cwd = true,
       view = {
         width = 30,
         height = 30,
@@ -47,8 +47,8 @@ function M.config()
         auto_open = true,
       },
       update_focused_file = {
-        enable = false,
-        update_cwd = false,
+        enable = true,
+        update_cwd = true,
         ignore_list = {},
       },
       ignore_ft_on_setup = {},
@@ -80,7 +80,7 @@ function M.config()
         use_system_clipboard = true,
         change_dir = {
           enable = true,
-          global = false,
+          global = true,
           restrict_above_cwd = false,
         },
         open_file = {

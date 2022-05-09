@@ -21,6 +21,7 @@ function M.config()
             ['<C-b>'] = cmp.mapping(cmp.mapping.scroll_docs(-4), { 'i', 'c' }),
             ['<C-f>'] = cmp.mapping(cmp.mapping.scroll_docs(4), { 'i', 'c' }),
             ['<C-Space>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
+            ['<Tab>'] = cmp.mapping(cmp.mapping.select_next_item(), { 'i', 's' }),
             ['<C-y>'] = cmp.config.disable,
             ['<C-e>'] = cmp.mapping({
                 i = cmp.mapping.abort(),
@@ -32,7 +33,7 @@ function M.config()
         },
         sources = cmp.config.sources({
             { name = 'nvim_lsp' },
-            -- { name = 'luasnip' }, -- For luasnip users.
+            { name = 'luasnip' }, -- For luasnip users.
             -- { name = 'ultisnips' }, -- For ultisnips users.
             -- { name = 'snippy' }, -- For snippy users.
         }, {{ name = 'buffer' }})
